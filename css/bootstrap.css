@@ -5908,7 +5908,7 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .close {
-  float: right;
+  float: left;
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
