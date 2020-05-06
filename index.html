@@ -1,727 +1,415 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Eric Agredo | Software Engineer</title>
-    <script src="assets/js/jquery.js"></script>
-	<!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Retina.js - Load first for faster HQ mobile images. -->
-    <script src="assets/js/plugins/retina/retina.min.js"></script>
 
-    <!-- Font Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- Default Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
-    <!-- Modern Style Fonts (Include these is you are using body.modern!) -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
-    <!-- Vintage Style Fonts (Include these if you are using body.vintage!) -->
-    <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
-    <!-- Plugin CSS -->
-    <link href="assets/css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/jquery.fs.wallpaper.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="assets/css/octicons/octicons.css">
-	<!-- bxSlider Javascript file -->
-	<script src="assets/js/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
-	<!-- bxSlider CSS file -->
-	<link href="assets/js/plugins/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
-    <!-- Vitality Theme CSS -->
-    <!-- Uncomment the color scheme you want to use. -->
-    <!-- <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
-    <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css">
-    <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
-    <!-- IE8 support for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Eric Agredo
+
+	Personal Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/https://github.com/ericagredo/personal_page/images/personal_logo.png">
+	<title>Eric Agredo – Software Engineer</title>
+	<meta name="description" content="Personal Portfolio of Eric Agredo.">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Eric Agredo – Software Engineer">
+	<meta name="twitter:description" content="Personal Portfolio of Eric Agredo.">
+	<meta name="twitter:image:src" content="https://ericagredo.com/https://github.com/ericagredo/personal_page/images/home.jpg">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="Eric Agredo – Software Engineer" />
+	<meta property="og:description" content="Personal Portfolio of Eric Agredo." />
+	<meta property="og:image" content="https://ericagredo.com/https://github.com/ericagredo/personal_page/images/home.jpg" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/https://github.com/ericagredo/personal_page/css/style.css">
+	
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+	
 </head>
-<!-- Alternate Body Classes: .modern and .vintage -->
 
-<body id="page-top">
-    <!-- Navigation -->
-    <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="assets/img/creative/logo_mod.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <header style="background-image: url('assets/img/portfolio/night_sky.jpg');">
-        <div class="intro-content">
-            
-            <div class="brand-name">Eric Agredo</div>
-            <hr class="colored">
-            <div class="brand-name-subtext">Engineer. Dreamer. Builder.</div>
-        </div>
-        <div class="scroll-down">
-            <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
-        </div>
-    </header>
-    <section id="about">
-        <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="assets/img/about.jpg" class="img-responsive" alt="">
-                </div>
-                <div class="col-md-8 text-center">
-                    <h1>Hi there, I'm <span class="text-primary">Eric!</span></h1>
-                    <hr class="colored">
-                  	<p> I am a Software Engineer from the University of Florida. My main interests are in iOS development where my passion is to create a wonderful user experience through my code. My interests for iOS development becan when I worked on the World's First Brain Drone Race. Furthermore, I worked at MIT Media Lab for two years where I worked on a new data security protocol called Open Algorithm Project (OPAL). I also developed an Infomediary iOS application where personal datastores were created and easily accessible. I love to apply an interdisciplinary attitude to every project I create because of the variety of interests I have. Finally, I am extremely passionate about nature and star gazing. I love to find inspiration, peace, and humility by the mere observation of our world and universe. </p>
-					
-					<a class="btn btn-default" href="docs/Resume2020.pdf" target="_blank"><span class="fa fa-file" style="margin-right:5px;"></span>Resume</a>
-					<a class="btn btn-default" href="https://github.com/ericagredo" target="_blank"><span class="octicon octicon-mark-github" style="margin-right:5px;"></span>Github</a>
-					<a class="btn btn-default" href="https://www.linkedin.com/in/ericagredo/" target="_blank"><span class="fa fa-linkedin-square" style="margin-right:5px;"></span>LinkedIn</a>
-                   
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services" class="bg-gray">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h1>I'm a Creator and Thinker</h1>
-					<p>I'm interested in and pursue iOS development, design, and star gazing. </p>
-                    <hr class="colored">
-                </div>
-            </div>
-            <div class="row text-center content-row">
-                
-                <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".4s">
-                    <div class="about-content">
-                        <i class="fa fa-code fa-3x"></i>
-                        <h3>Development</h3>
-                        <p>I love bringing things to life through the magic of software. I am proficient with:
-						<ul class="text-left" style="margin-left:40px">
-							<li>Swift</li>
-							<li>Java</li>
-							<li>HTML/CSS/Javascript</li>
-						</ul></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".6s">
-                    <div class="about-content">
-                        <i class="fa fa-power-off fa-3x"></i>
-                        <h3>Tech & Electronics</h3>
-                        <p>I love to learn about the latest technologies and apply them--from iOS UX Designs to IoT tech. I also really enjoy building electronic devices. I hack around with Raspberry Pis, Particle Photons, and whatever else I can get my hands on.</p>
 
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".8s">
-                    <div class="about-content">
-                        <i class="fa fa-paint-brush fa-3x"></i>
-                        <h3>Thinker</h3>
-                       	<p>"The stars awaken a certain reverence, because though always present, they are inaccessible; but all natural objects make a kindred impression, when the mind is open to their influence."-Ralph Waldo Emerson.</br> A passion of mine has always been to star gaze while thinking of technology. It is humbling to look at the stars and feel a sense of gratitude for being alive. It is through this gratitude that I create ideas. </p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-       <section id="projects">
-	   <!--Projects Header-->
-		<div class="container text-center wow fadeIn">
-            <h2>Projects</h2>
-            <hr class="colored">
-            <p>Here are some projects that I've worked on.</p>
+<body class="loading ajax-loading" data-site-url="https://ericagredo.com" data-page-url="/">
+
+
+	<header class="header">
+
+	<div class="wrap">
+
 		
-          
+		<a href="https://github.com/ericagredo/personal_page/" class="header__title">
+			Eric Agredo
+		</a>
+		
 
-            <div class="row">
-                <div class="col-lg-12">
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
 					
-                    <div id="portfoliolist">
-                        <!--QU Parking-->
-                      <div class="portfolio fun tech web modal-loader" data-loc="modals/ADPL.html" data-cat="graphic" href="#quparking" id="ADPL_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/qu-icon.png" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">QU-Parking</a>
-                                        <span class="text-category">A Marketplace To Sell or Rent A Parking Space</span>
-                                    </div>
-                        
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                     <!--Infomediary-->
-                      <div class="portfolio fun tech web modal-loader" data-loc="modals/ADPL.html" data-cat="graphic" href="#infomediary" id="ADPL_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/Infomediary/cxsci.png" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Infomediary</a>
-                                        <span class="text-category">Bringing Data Back to The People</span>
-                                    </div>
-                        
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--OPAL-->
-					  <div class="portfolio fun tech web modal-loader" data-loc="modals/ADPL.html" data-cat="graphic" href="#opal" id="ADPL_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/OPAL/opal.jpg" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">OPAL</a>
-                                        <span class="text-category">Bringing code to the data</span>
-                                    </div>
-						
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-                       <!--BrainDrone-->
-					  <div class="portfolio fun tech web modal-loader" data-loc="modals/CloudPulse.html" data-cat="graphic" href="#brainDrone" id="CloudPulse_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/BrainDrone/ericdrone.png" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Brain Drone Race</a>
-                                        <span class="text-category">World's First Brain Drone Race</span>
-                                    </div>
-						
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-								
-						<!--Rideboard-->
-                        <div class="portfolio fun modal-loader" data-loc="modals/flute.html" data-cat="fun" href="#rideboard" data-toggle="modal" id="flute_click">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/Rideboard/Rideboard.png" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Rideboard</a>
-                                        <span class="text-category">Long Distance Ride Sharing</span>
-                                    </div>
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
+					<li class="menu__list__item">
+						<a href="/https://github.com/ericagredo/personal_page/" class="menu__list__item__link">Projects</a>
+					</li>
 					
+					<li class="menu__list__item">
+						<a href="/https://github.com/ericagredo/personal_page/about" class="menu__list__item__link">About</a>
+					</li>
 					
-                     <!--GatorIoT-->
-                      <div class="portfolio fun tech web modal-loader" data-loc="modals/ADPL.html" data-cat="graphic" href="#gatoriot" id="ADPL_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/GatorIoT/GatorIoT.png" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">GatorIoT</a>
-                                        <span class="text-category">IoT Projects Developed for UF Through My Organization</span>
-                                    </div>
-                        
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
-                    <!--DCI-->
-                        <div class="portfolio fun tech web modal-loader" data-loc="modals/ADPL.html" data-cat="graphic" href="#dci" id="ADPL_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/DCI/dci.png" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Digital Currency Initiative</a>
-                                        <span class="text-category">My Involvement With DCI </span>
-                                    </div>
-                        
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
+					<li class="menu__list__item">
+						<a href="/https://github.com/ericagredo/personal_page/contact" class="menu__list__item__link">Contact</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
 
-                        <!--Engagement-->
-                        <div class="portfolio fun tech web modal-loader" data-loc="modals/ADPL.html" data-cat="graphic" href="#engage" id="ADPL_click" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/Engage/emotiv.jpg" alt="">
-                                <div class="caption">
-                                    <div class="caption-text">
-                                        <a class="text-title">Engagement</a>
-                                        <span class="text-category">Using a BCI To Measure Focus and Engagement </span>
-                                    </div>
-                        
-                                    <div class="caption-bg"></div>
-                                </div>
-                            </div>
-                        </div>
+	</div>
 
-                   </div>
-                </div>
-            </div>
-        </div>
-		</section>
-
-    <footer class="footer" style="background-image: url('assets/img/portfolio/night_sky.jpg')">
-        <div class="container text-center" id="contact">
-            <div class="row">
-               <div class="col-md-12 contact-details">
-                    <h4><i class="fa fa-envelope"></i> Email</h4>
-                    <script language="JavaScript">
-								var username = "agredo";
-								var hostname = "mit.edu";
-								var linktext = username + "@" + hostname ;
-								document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
-							</script>	
-                    </p>
-                </div>
-            </div>
-            <div class="row social">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        
-						<li><a href="https://www.linkedin.com/in/eric-agredo-174001a5/"><i class="fa fa-linkedin fa-fw fa-2x"></i></a> </li>
-						<li><a href="https://github.com/ericagredo"><i class="fa fa-github fa-fw fa-2x"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row copyright">
-                <div class="col-lg-12">
-                    <p class="small">&copy; 2017 Eric Agredo</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Portfolio Modals -->
-    <!-- Rideboard Modal -->
-    <div class="portfolio-modal modal fade" id="rideboard" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/night_sky2.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            
-                            <h2>Rideboard</h2>
-                            <hr class="colored">
-                            <p> University of Florida has an unofficial Facebook page dedicated to finding car rides across Florida called "UF Rideboard". Most of the students in UF live in South Florida or along the way, so the page is heavily used due to its cheap prices. However, the page is extremely unorganized. One has to scroll through all the posts in the group to find a ride that meets your criteria. In addition, there is no security when it comes to these rides. The only security is scrolling through a driver's Facebook profile and judging them based off of that. Thus, I created an application that centralizes everything about UF Rideboard, but with security and organization. We have the user choose whether they are a driver or a passenger and then they enter their trip’s start and end location. The driver sets the price for the passengers. Then, passengers looking for a ride are matched with drivers that closely match their criteria. Passengers press “start ride” when they enter a car, so they can begin the sharing of their location to a person of their choice. The only way to end location sharing is by entering a PIN that the passenger creates beforehand. As a result, a passenger cannot be coerced into removing their location and every person can safely be tracked from start to finish. </p>
-
-                        </div>
-                        <!--Flute Images-->
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                    <td><img style="width:60%;" src="assets/img/portfolio/Rideboard/rideboard_1.png" /></td>
-                                    <td><img style="width:60%;" src="assets/img/portfolio/Rideboard/rideboard_2.png" /></td>
-                                    <td><img style="width:60%;" src="assets/img/portfolio/Rideboard/rideboard_3.png" /></td>
-                                    <td><img style="width:60%;" src="assets/img/portfolio/Rideboard/rideboard_4.png" /></td>
-                                    
-                                </tr>
-                            </table>
-                            
-                        </div>
-                            
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-	    <!-- Brain Drone -->
-    <div class="portfolio-modal modal fade" id="brainDrone" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/night_sky2.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 col-lg-offset-1">
-                            
-                            <h2>The World's First Brain Drone Race</h2>
-                            <hr class="colored">
-                            <p>In Spring 2016, I began working in UF’s Human Experience Research Lab (HXRL). I joined the team that sought to create the World’s First Brain Drone Race, which was heavily funded by Intel. We used an Emotive Insight as our main Brain Computer Interface (BCI) and DJI Phantom for our drones. BCIs provide EEG signals that can be used to compute a user’s focus and level of engagement. Using these signals, we calibrated the Emotiv to measure when a person was trying to move a block forward with their thoughts. The Emotiv calibration set a user’s neutral thoughts and then had the user think of moving a block and set that threshold. This was then translated to move a drone forward. My contribution was developing the simulation that was used in the qualification round and writing some of the code connecting the drone and BCI. </p>
-                            
-                        </div>
-                        <div class="col-lg-12">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/C0s3w-wqcI8" frameborder="0" allowfullscreen></iframe>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/U08ma8KNOnY" frameborder="0" allowfullscreen></iframe>
-                            <table style="width:100%;">
-                                <tr>
-                            
-                                    <td><img style="width:60%;" src="assets/img/portfolio/BrainDrone/ericTest.jpg" /></td>
-                                    
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- OPAL Modal-->
-    <div class="portfolio-modal modal fade" id="opal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/night_sky2.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h2>OPAL</h2>
-                            <hr class="colored">
-                            <p>I worked at the MIT Media Lab in the Human Dynamics group with Dr. Alex Pentland and Dr. Thomas Hardjono on a new security protocol called the Open Algorithm Project (OPAL). The basis of the project was to create a protocol where one could run useful data computations on sensitive data without actually seeing the data. As a result, we maintain privacy while producing a useful data analysis.<br/>  </p>
-                        </div>
-
-                        
-                       
-
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/opal-data-server-v01.png" /></td>
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/meML.jpg" /></td>
-                                    
-                                </tr>
-                            </table> 
-                        </div>
-                         <div class="col-lg-8 col-lg-offset-2">
-                            <p>I worked specifically on the use cases of this new protocol. I used Twitter and Fitbit as the data providers. Twitter was an interesting use case because it was a live stream of data being provided. I focused solely on the location metadata because I wanted to demonstrate the dangers of Twitter’s public data. I used LDA to determine what topics in certain locations were being talked about.<br/> Then, I applied a OPAL back end to show how Twitter could benefit from OPAL. Lastly, I created an algorithm to asses the health of Fitbit user by using their data. AI computations ran on this personal data and outputted a health score while maintaining the data private. </p>
-                        </div>
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                 
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/Picture1.png" /></td>
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/Picture2.png" /></td>
-                                </tr>
-                            </table> 
-                        </div>
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <p>Most importantly, the beautiful people I got to meet at the Media Lab:</p>
-                        </div>
-
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                 
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/joi.jpg" /></td>
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/sand.jpg" /></td>
-                                    <td><img style="width:90%;" src="assets/img/portfolio/OPAL/mitch.jpg" /></td>
-                                </tr>
-                            </table> 
-                        </div>
-
-                        <!--<div class="col-lg-8 col-lg-offset-2">
-                            Below you can check out some other 3D prints I've made.     
-                        </div>-->
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Infomediary Modal-->
-    <div class="portfolio-modal modal fade" id="infomediary" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h2>Infomediary</h2>
-                            <hr class="colored">
-                            <p>Infomediary's goal is to bring data back to the people. Right now major corporations harvest our data without us being compensated. Companies have misused our data and we have no power when it comes to that. Thus, infomediary is trying to change that. We are creating a databank where users can upload all their social media and health data to have a personal copy for themselves and for the data bank. Once the data bank is vast, then having data in aggregate is more meaningful to a third party company. This allows us to have say in which companies we sell our data to and as a result we get a monetary reward. Essentially, we have created a data union for people. Check out the website: <a href="https://infomediary.mit.edu/">www.infomediary.mit.edu</a></p>
-                        </div>
-                       
- 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Infomediary Modal-->
-    <div class="portfolio-modal modal fade" id="quparking" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h2>QU-Parking</h2>
-                            <hr class="colored">
-                            <p>Some friends and I at UF started a company called QU-Parking. We wanted to create a marketplace where users could put their empty parking spot up for rent. This would allow users to rent spots in times of need or scheduled times throughout the week. We gained traction at UF, since parking is limited, with some 30 people signing up, but as our friends graduated and went their own ways, so did the project. We have the app available on the appstore to check out: <a href="https://apps.apple.com/us/app/qu-parking/id1328257434">https://apps.apple.com/us/app/qu-parking/id1328257434</a></p>
-                        </div>
-                       
- 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
- 
-
-    <!-- GatorIoT Modal-->
-    <div class="portfolio-modal modal fade" id="gatoriot" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h2>Gator IoT</h2>
-                            <hr class="colored">
-                            <p>Gator IoT was an organization that was created with Dr. HIll back in 2016. The goal was to have students participate in projects that used Particle Photons in order to learn the power of IoT. We had sponsorships from P&G and Accenture and had Particle Photon donate $1500 worth of
-                               of their devices. We had multiple projects involving University of Florida such as a library people counter that used lasers and updated the admin in real time. The creation of this organization led me to win the Gator Attribute Award for Creativity. </p>
-                        </div>
-                       
- 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</header>
 
 
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+	
+	<div class="page">
+
+		<div class="page__content" data-page-title="Eric Agredo – Software Engineer">
+
+			<section class="hero">
+
+	<div class="hero__image" style="background-image: url(/https://github.com/ericagredo/personal_page/images/home.jpg)">
+		<div class="hero__overlay"></div>
+	</div>
+
+	<div class="wrap">
+
+		<h1>Welcome to my page!</h1>
+		<p>This is my personal website where you can learn about me and all my projects. </p>
+
+		<ul class="socials">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.linkedin.com/in/ericagredo" target="_blank" class="socials__item__link" title="Linkedin">
+			<i class="fab fa-linkedin" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://github.com/ericagredo" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://twitter.com/ericagredo" target="_blank" class="socials__item__link" title="Twitter">
+			<i class="fab fa-twitter" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+</ul>
+
+	</div>
+
+</section>
+
+<section class="listing">
+
+	<div class="wrap">
+
+		
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url(/https://github.com/ericagredo/personal_page/images/projects/QU/qu-icon.png)"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="/https://github.com/ericagredo/personal_page/project/qu-parking">QU Parking</a></h2>
+					<p class="post__subtitle">Parking simplified</p>
+					<p class="post__description">An iOS application built to create a market place for renting and hosting parking spots.</p>
+				</div>
+			</div>
+
+		</article>
+
+		
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url(/https://github.com/ericagredo/personal_page/images/projects/Social-Capital/hd.png)"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="/https://github.com/ericagredo/personal_page/project/social-capital">MIT Media Lab | Human Dynamics</a></h2>
+					<p class="post__subtitle">Social Capital</p>
+					<p class="post__description">An iOS application built upon previous research to measure a user's social capital.</p>
+				</div>
+			</div>
+
+		</article>
+
+		
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url(/https://github.com/ericagredo/personal_page/images/projects/Infomediary/cxsci.png)"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="/https://github.com/ericagredo/personal_page/project/infomediary">MIT Media Lab | Human Dynamics | Connection Science</a></h2>
+					<p class="post__subtitle">Infomediary</p>
+					<p class="post__description">A personal datastore for your social media and health data. iOS and Web</p>
+				</div>
+			</div>
+
+		</article>
+
+		
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url(/https://github.com/ericagredo/personal_page/images/projects/Opal/mit.png)"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="/https://github.com/ericagredo/personal_page/project/opal">MIT Media Lab | Human Dynamics | MSRP</a></h2>
+					<p class="post__subtitle">MIT Summer Research Program</p>
+					<p class="post__description">Summer project to anonymous data and its subsequent analysis of it.</p>
+				</div>
+			</div>
+
+		</article>
+
+		
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url(/https://github.com/ericagredo/personal_page/images/projects/BrainDrone/ericdrone.png)"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="/https://github.com/ericagredo/personal_page/project/braindrone">The World's First Brain Drone Race</a></h2>
+					<p class="post__subtitle">UF Human Experience Research Lab</p>
+					<p class="post__description">Title says it all. We drag raced drones with our thoughts!</p>
+				</div>
+			</div>
+
+		</article>
+
+		
+
+	</div>
+
+</section>
+
+		</div>
+
+	</div>
 
 
-<!-- DCI Modal-->
-    <div class="portfolio-modal modal fade" id="dci" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/night_sky2.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h2>Digital Currency Initiative</h2>
-                            <hr class="colored">
-                            <p>I was one of 25 chosen from 310 people to participate in DCI's weeklong cryptocurrency bootcamp. We spent a week at the Media Lab learning, in extreme detail, how cryptocurrency functioned. Not only did we learn the fundamentals, but we also learned about the cryptography and algorithms behind certain cryptocurrencies. Most importantly, we were taught how to develop for ethereum and other platforms. For example, we created simple smart contracts with ethereum, and we used 21 Inc. computers to run our own bitcoin scripts.  </p>
-                        </div>
-                       
+	<footer class="footer">
 
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                    <td><img style="width:70%;" src="assets/img/portfolio/DCI/me.png" /></td>
-                                    <td><img style="width:80%;" src="assets/img/portfolio/DCI/dcigroup.jpg" /></td>
-                                    
-                                    
-                                </tr>
-                            </table> 
-                        </div>
+	<div class="wrap">
 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <p> At the end of the bootcamp, me and a team created an email service where a user could send someone an email and then have those privileges removed. It was basically a snapchat for emails, but using the blockchain. Specifically, Dr. Guy Zyskind's Engima. </p>
-                        </div>
+		<p class="footer__text">Eric Agredo</p>
 
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                    <td><img style="width:50%;" src="assets/img/portfolio/DCI/team.jpg" /></td>
-                                </tr>
-                            </table> 
-                        </div>
+		<div class="footer__copyright">
+			<span>© 2020 Eric Agredo</span>
+			<a href="https://jekyllthemes.io" target="_blank">Jekyll Themes</a>
+		</div>
 
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h3>Scaling Bitcoin Conference</h3>
-                            <p>I was one of six chosen to receive a travel grant and registration pass by MIT's DCI to attend a Scaling Bitcoin conference in Milan, Italy. The conference gave me the opportunity to meet the greatest minds in cryptocurrency. As a result, I learned so much about various topics of research in cryptocurrency that I had no idea existed. It was more vast than I ever imagined! </p>
-                        </div>
+		<ul class="socials">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.linkedin.com/in/ericagredo" target="_blank" class="socials__item__link" title="Linkedin">
+			<i class="fab fa-linkedin" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://github.com/ericagredo" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://twitter.com/ericagredo" target="_blank" class="socials__item__link" title="Twitter">
+			<i class="fab fa-twitter" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+</ul>
 
-                        <div class="col-lg-12">
-                            <table style="width:100%;">
-                                <tr>
-                                    <td><img style="width:50%;" src="assets/img/portfolio/DCI/italy.jpg" /></td>
-                                </tr>
-                            </table> 
-                        </div>
+	</div>
 
-
-
-                        
-                        <!--<div class="col-lg-8 col-lg-offset-2">
-                            Below you can check out some other 3D prints I've made.     
-                        </div>-->
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Engagement-->
-    <div class="portfolio-modal modal fade" id="engage" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/night_sky2.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 col-lg-offset-1">
-                            
-                            <h2>BCI Engagement</h2>
-                            <hr class="colored">
-                            <p>Using an Emotiv Insight for our BCI, we wanted to measure a user’s engagement in different activities such as studying or watching a TED talk. I developed an iPhone application that could do just that. We had users watch a TED talk to measure their engagement and then the results were given to them. This allowed them to keep track of their engagement over time and the opportunity to improve each time. As a result, we created a quantified-self application with a BCI as the medium. The code will be published once Dr. Andujar's dissertation is public. </p>
-                            
-                        </div>
-                        <div class="col-lg-12">
-                            
-                            <table style="width:100%;">
-                                <tr>
-                            
-                                    <td><img style="width:40%;" src="assets/img/portfolio/Engage/engage.jpg" /></td>
-                                    <td><img style="width:40%;" src="assets/img/portfolio/Engage/home.jpg" /></td>
-                                    
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+</footer>
 
 
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/https://github.com/ericagredo/personal_page/js/personal-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
 
 
-    <!-- Core Scripts -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-    <!-- Plugin Scripts -->
-    <script src="assets/js/plugins/jquery.easing.min.js"></script>
-    <script src="assets/js/plugins/classie.js"></script>
-    <script src="assets/js/plugins/cbpAnimatedHeader.js"></script>
-    <script src="assets/js/plugins/owl-carousel/owl.carousel.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plugins/jquery.fs.wallpaper.js"></script>
-    <script src="assets/js/plugins/jquery.mixitup.js"></script>
-    <script src="assets/js/plugins/wow/wow.min.js"></script>
-    <script src="assets/js/contact_me.js"></script>
-    <script src="assets/js/plugins/jqBootstrapValidation.js"></script> 
-    <script src="assets/js/vitality.js"></script>
-	 <script src="modal-loading.js"></script>
-	<script>
-	$(document).ready(function(){
-  		$('.bxslider').bxSlider();
-	});
-	</script>
-	<script language="JavaScript"> 
-		window.onload = function(){
-    	var hash = (window.location.hash).replace('#', ''); 
-		// Capture hashtag and execute click event on project panel if it exists.		
-		var target="#"+hash+"_click";
-		console.log(target);
-		$(target).trigger("click");
-
-}
-</script>
 </body>
 
 </html>
