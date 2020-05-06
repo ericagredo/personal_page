@@ -1,1 +1,1 @@
-Sitemap: https://ericagredo.com/https://github.com/ericagredo/personal_page/sitemap.xml
+Sitemap: https://ericagredo.com/sitemap.xml
